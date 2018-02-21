@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre(inglés):"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/tvPoblacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poblacion"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:id="@+id/tvPaisIngles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre(inglés):"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/tvLatitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Latitud:"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre(Castellano):"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/tvLongitud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Longitud:"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:id="@+id/tvPaisCas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre(Castellano):"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paises fronterizos:"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:id="@+id/tvClave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clave:"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/tvPaisesFron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paises fronterizos:"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCapital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital:"/>
+
+    <TextView
+        android:id="@+id/tvContinente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continente:"/>
+
+</LinearLayout>
